@@ -42,7 +42,7 @@ Set-Location "$workingDirOverride"
 $computer = $env:COMPUTERNAME
 $date = Get-Date -Format "MM_dd_yy"
 
-$packageSourcePath = "\\jmpist01094p01\Data\Scripting\Khoa - Finished Scripts\SCCM Collection Tool - Full Version\Latest Version"
+$packageSourcePath = "\\REDACTED\Data\Scripting\Khoa - Finished Scripts\SCCM Collection Tool - Full Version\Latest Version"
 $localPath = "C:\temp\SCCM Collection Tool - Full Version"
 
 If (!(Test-Path -Path $localPath)) {
